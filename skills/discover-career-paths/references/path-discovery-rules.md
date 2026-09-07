@@ -79,6 +79,41 @@ occupation there are often several, with very different demands on time and mone
 For someone with a short runway or a hard income floor, **Teilqualifikation, Quereinstieg,
 and internal progression matter more than the full qualification.** Surface them first.
 
+## Two traps this search walks into
+
+Both were observed in a real run. Check for them explicitly.
+
+### Querying the current occupation returns routes *into* it
+
+Someone who is already a Fachlagerist and wants out will, if you search their job title,
+get pages full of Umschulungen **into** that job. The search engine cannot tell which
+direction you meant.
+
+In `change` mode, the current occupation name must **not** be the primary query term. Query
+the tasks instead, and use explicit direction framings:
+
+- `Berufe mit {tätigkeit} {tätigkeit} Quereinstieg` — task-led
+- `Alternativen zu {beruf} Wechsel mit Erfahrung` — direction-led
+- `von {beruf} zu` / `Umstieg aus {beruf}` — explicit direction
+- `{gewerk} Quereinsteiger mit Lagererfahrung` — carries the experience across
+
+### Official-looking domains that are not official
+
+Searches for training and occupation facts return a large volume of commercial
+training-provider marketing, some of it on domains chosen to look governmental.
+
+**Official for these purposes:** `arbeitsagentur.de` (and its subdomains),
+`mein-now.de`, chamber domains (`hwk-*.de`, `ihk*.de`, `khs-*.de`), ministry and
+Landesbehörde domains, `anerkennung-in-deutschland.de`.
+
+**Not official, regardless of how the domain reads:** any site whose name merely contains
+"arbeitsamt", "umschulung", "weiterbildung", or similar, and every training provider,
+comparison portal, and course marketplace.
+
+Never source an occupation's entry requirements, duration, or demand from a provider or a
+portal. Providers describe the course they are selling, not the occupation. Use them only to
+learn that a course exists locally, then verify the facts against an official source.
+
 ## Verification
 
 Return a candidate only when the run has verified:

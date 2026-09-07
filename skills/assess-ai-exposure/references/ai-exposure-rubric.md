@@ -44,6 +44,42 @@ A technically automatable task can stay human for a decade. What decides it:
 **Bottlenecks are usually the most useful part of this analysis for the person**, because
 they explain *why* something will or will not change where they actually work.
 
+## Source bias — the biggest practical risk in this skill
+
+Searching automation topics does not return neutral evidence. It returns, in roughly this
+order of volume:
+
+- **Vendor material** — system makers and integrators, whose business is selling the
+  automation. They describe capability, not deployment, and rarely mention cost, payback
+  period, or the firms that looked and declined.
+- **Trade press** — logistics, industry, and technology magazines that run on vendor
+  advertising and on novelty. A pilot at one large distribution centre becomes "the
+  warehouse of the future".
+- **Content marketing by training providers** — blogs with titles like "get out of the
+  warehouse before it's too late", written to sell a retraining course. The fear framing
+  *is* the sales pitch.
+- **Consultancy projections** — headline percentages, widely quoted, rarely re-derived.
+
+Left unchecked, this pipeline produces exactly the doom framing this skill exists to
+prevent, while looking like research.
+
+Rules:
+
+- **Separate capability from deployment.** "A robot can pick 600 items an hour" is a
+  capability claim. The question is whether firms of *this size* in *this region* have
+  bought it, and what stopped the ones that did not.
+- A demo, a pilot, a trade-fair announcement, and a press release are **not** evidence of
+  deployment. Say which one you actually found.
+- Weight in this order: labour-market analysis and official occupation data → employer and
+  chamber statements → sector associations → trade press → vendor material.
+- Treat a provider's warning about an occupation as marketing for their course, never as
+  evidence about the occupation.
+- Where the only sources found are vendors and trade press, **say so** and mark the exposure
+  assessment as weakly evidenced. That is an honest and useful answer.
+- Large-employer coverage crowds out small-employer reality. Most people do not work in an
+  automated distribution centre, and the wage-bill bottleneck applies hardest at the small
+  end. Ask what firm size the evidence is actually about.
+
 ## Horizon
 
 Assess **two to five years**. Beyond that, say plainly that it is not forecastable and stop.

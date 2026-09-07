@@ -51,9 +51,10 @@ Phase 2 (validation harness) and Phase 3 (coverage) not started.
 ## Known gaps
 
 - No automated tests yet — verification is structural checks plus live persona dry-runs.
-- **The live persona dry-runs have not been run.** Structural checks and source
-  verification pass, but no end-to-end conversation has been exercised, so the behavioural
-  invariants in `CLAUDE.md` §6 are asserted by the skill text and not yet demonstrated.
+- **Partial dry-run only.** The warehouse persona exercised the discovery axes and evidence
+  quality against live sources (see `findings/2026-09-07-warehouse-persona-run.md`), but the
+  turn-by-turn interview, its forced-choice fallback, and its stop rules are still untested,
+  and track (a) has never been run. The Phase 2 simulation harness is what closes this.
 - Foreign-qualification recognition is mentioned in the profile schema but has no dedicated
   route reference yet.
 - Regional source coverage is generic Germany-wide; no local depth.
@@ -76,3 +77,8 @@ Phase 2 (validation harness) and Phase 3 (coverage) not started.
   Verified as reachable and correctly described: BERUFENET, the Jobbörse (radius steps
   10/15/25/50/100/200 km, which rung 1 of the ladder now maps onto), mein NOW and its
   Fördernavigator, HWK Lehrstellenbörsen, Lehrstellenradar, Lehrstellenatlas, Innungssuche.
+- **2026-09-07** — Warehouse persona dry-run (Reutlingen, track c) against live sources.
+  Three defects found and fixed: querying the current occupation returns routes *into* it
+  rather than out; official-looking commercial domains were dominating occupation results;
+  and automation searches return a vendor and trade-press pipeline that manufactures exactly
+  the doom framing the skill set forbids. Full write-up in `findings/`.
