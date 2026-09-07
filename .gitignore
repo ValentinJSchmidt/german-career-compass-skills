@@ -9,3 +9,5 @@ dist/
 # Never commit a filled-in profile. Profiles are in-session only.
 **/profile-*.md
 **/session.md
+*.local.md
+cv.pdf
