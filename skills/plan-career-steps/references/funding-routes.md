@@ -15,6 +15,16 @@ change: some are discontinued, some are folded into other programmes, some are
 Bundesland-specific. Do not carry any of this from memory — check the responsible body's
 current page and cite it with a date.
 
+## A concrete starting point
+
+**mein NOW** (`mein-now.de`) — the Bundesagentur's training portal, carried jointly with all
+16 Länder and the federal ministry — includes a **Fördernavigator** covering funding options
+such as education vouchers and educational leave, alongside the course search and a list of
+local advice centres. It replaced KURSNET, which was shut down at the start of 2025.
+
+Verified 2026-09-07. It is a place to look things up and to find the local advice centre —
+**not** a source of eligibility rulings. The rule below still governs everything.
+
 ## Route families to check
 
 Described as families rather than as current facts. Confirm the present name and status in

@@ -49,6 +49,21 @@ employer-owned or official source before it is returned. LinkedIn in particular 
 coverage of trades, care, and small-firm hiring — treating it as the market is exactly the
 mistake this file exists to prevent.
 
+## Named starting points
+
+Verified 2026-09-07; re-verify before relying on them.
+
+- **Jobbörse der Bundesagentur** (`arbeitsagentur.de/jobsuche`) — the broadest coverage of
+  non-office work in Germany, with a radius filter in fixed steps (10, 15, 25, 50, 100,
+  200 km, or a custom radius). Those steps map directly onto rung 1 of the ladder in
+  `../../find-career-options/references/self-correction-ladder.md`: widening from 25 to
+  50 km is one concrete, checkable move.
+- **Handwerkskammer Lehrstellenbörsen**, per chamber and region.
+- **Lehrstellenatlas** — a directory of training-authorized trade firms. Lists *employers*
+  rather than vacancies, which is precisely what is needed when the vacancy is never posted.
+- **Innungssuche** — guild member directories, by trade and district. The single best axis
+  for finding firms that hire without ever advertising.
+
 ## Geography
 
 - Enumerate the towns, districts, and Landkreise actually inside the radius. Do not search

@@ -7,7 +7,7 @@ Use several, so the pool is not just whatever a search engine ranks first.
 | Axis | Purpose | Example query shape |
 |---|---|---|
 | BERUFENET / occupation database | Authoritative occupation profiles, entry requirements, tasks | `BERUFENET {beruf} Zugangsvoraussetzungen Tätigkeiten` |
-| Training databases | Real routes: Ausbildung, Umschulung, Weiterbildung | `Umschulung {beruf} KURSNET Dauer Voraussetzungen` |
+| Training databases | Real routes: Ausbildung, Umschulung, Weiterbildung | `mein NOW Weiterbildungssuche {beruf} Umschulung` |
 | Chambers (IHK / HWK) | Trades and commercial routes, Teilqualifikation, Meister | `HWK {region} Umschulung Teilqualifikation {gewerk}` |
 | Task similarity | Occupations sharing tasks with the current role | `Berufe mit {tätigkeit} {tätigkeit} Quereinstieg` |
 | Sector associations | Occupations inside an industry, incl. small ones | `{branche} Verband Berufsbilder Einstieg` |
@@ -42,6 +42,22 @@ security than the office route someone assumed they should want.
 Do **not** rank on AI exposure at this stage, and do not treat trades as the safe answer.
 Exposure is `assess-ai-exposure`'s job, it is assessed per task, and it does not resolve into
 "trades safe, office exposed".
+
+## Named starting points
+
+Verified 2026-09-07. **Re-verify before relying on any of them** — this is exactly the kind
+of detail that goes stale, and the example below shows why.
+
+- **BERUFENET** (`web.arbeitsagentur.de/berufenet`) — occupation profiles, tasks, entry
+  requirements. The authoritative source for "what does this job actually involve".
+- **mein NOW** (`mein-now.de`) — the Bundesagentur's training and further-education search,
+  carried jointly with all 16 Länder. It **replaced KURSNET**, which was shut down at the
+  start of 2025 after its data was migrated. Anything still telling people to use KURSNET is
+  out of date; treat that as the standing warning about programme names.
+- **Handwerkskammer Lehrstellenbörsen** — run per chamber, regionally. Also
+  **Lehrstellenradar** (`handwerk.de`) and the **Lehrstellenatlas**, a directory of
+  training-authorized firms — useful because it lists *employers* rather than vacancies.
+- **Innungssuche** — guild directories, per trade and per district.
 
 ## Entry Routes
 

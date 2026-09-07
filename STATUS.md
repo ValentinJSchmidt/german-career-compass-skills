@@ -51,6 +51,9 @@ Phase 2 (validation harness) and Phase 3 (coverage) not started.
 ## Known gaps
 
 - No automated tests yet — verification is structural checks plus live persona dry-runs.
+- **The live persona dry-runs have not been run.** Structural checks and source
+  verification pass, but no end-to-end conversation has been exercised, so the behavioural
+  invariants in `CLAUDE.md` §6 are asserted by the skill text and not yet demonstrated.
 - Foreign-qualification recognition is mentioned in the profile schema but has no dedicated
   route reference yet.
 - Regional source coverage is generic Germany-wide; no local depth.
@@ -62,4 +65,14 @@ Phase 2 (validation harness) and Phase 3 (coverage) not started.
 - **2026-09-07** — All eight skills written with their 13 reference files, one commit per
   skill. Structural checks pass: folder names match frontmatter, no broken reference
   paths, no skill cites a skill that does not exist, no orphan reference files.
-- **2026-09-07** — study-os-thesis contributors credited in the README.
+- **2026-09-07** — study-os-thesis contributors credited in the README, resolved against
+  the GitHub API rather than commit metadata (two git identities turned out to be one
+  person, and another two were the same contributor under different names).
+- **2026-09-07** — Live source verification. Caught a real staleness bug in our own files:
+  `path-discovery-rules.md` pointed at KURSNET, which the Bundesagentur shut down at the
+  start of 2025 after migrating its data to **mein NOW** (`mein-now.de`). Fixed, and the
+  episode is now written into the file as the standing example of why programme names must
+  be verified live rather than recalled.
+  Verified as reachable and correctly described: BERUFENET, the Jobbörse (radius steps
+  10/15/25/50/100/200 km, which rung 1 of the ladder now maps onto), mein NOW and its
+  Fördernavigator, HWK Lehrstellenbörsen, Lehrstellenradar, Lehrstellenatlas, Innungssuche.
