@@ -77,10 +77,21 @@ any "nothing found" with a grain of salt and make the phone call.
 
 ## Credit
 
-The architecture — profile gate, two-layer live discovery, verified-evidence option maps,
-honest thin-field reporting — is ported from
-[study-os-thesis](https://github.com/Tue-StudyOS/study-os-thesis), which does the same
-thing for finding a thesis.
+The architecture this repo is built on — the deep-interview profile gate, two-layer live
+discovery, verified-evidence option maps, and honest thin-field reporting — was developed by
+the team behind [study-os-thesis](https://github.com/Tue-StudyOS/study-os-thesis), which
+does the same thing for finding a thesis.
+
+That design is theirs. This repo points it at career advice.
+
+**study-os-thesis contributors:**
+
+- Domi
+- Maximilian Schnitt ([@mxs01](https://github.com/mxs01))
+- Valentin Schmidt ([@ValentinJSchmidt](https://github.com/ValentinJSchmidt))
+- [@dxmme](https://github.com/dxmme)
+
+Thanks to all of them — the good ideas in this repo mostly came from there.
 
 ## License
 
