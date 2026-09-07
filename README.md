@@ -86,10 +86,9 @@ That design is theirs. This repo points it at career advice.
 
 **study-os-thesis contributors:**
 
-- Domi
-- Maximilian Schnitt ([@mxs01](https://github.com/mxs01))
-- Valentin Schmidt ([@ValentinJSchmidt](https://github.com/ValentinJSchmidt))
 - [@dxmme](https://github.com/dxmme)
+- [@mxs01](https://github.com/mxs01)
+- [@ValentinJSchmidt](https://github.com/ValentinJSchmidt)
 
 Thanks to all of them — the good ideas in this repo mostly came from there.
 
