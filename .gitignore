@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+dist/
+.idea/
+.vscode/
+
+# Never commit a filled-in profile. Profiles are in-session only.
+**/profile-*.md
+**/session.md
