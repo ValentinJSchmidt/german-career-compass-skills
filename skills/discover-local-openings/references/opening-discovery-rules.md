@@ -71,6 +71,13 @@ Verified 2026-09-07; re-verify before relying on them.
 - Check reachability by the person's real transport. A 25 km commute by car is routine; by
   regional bus at 05:30 it may be impossible. Where the profile says no car on certain days,
   flag candidates that only work with one.
+- **Rail reachability means Deutschland-Ticket reachability.** The monthly ticket covers
+  regional trains, S-Bahn, and local buses; ICE, IC, and EC are not included, and a
+  long-distance ticket bought every working day is not a commute a wage pays for. Where a
+  candidate is only reachable at a sensible hour by fast long-distance rail, time the
+  regional connection instead and record that time. If the regional journey breaks the
+  person's commute limit, the candidate does not fit — say so rather than quoting the ICE
+  time.
 - Record distance and transport for every candidate. `find-career-options` filters on it.
 
 ## Verification

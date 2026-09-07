@@ -77,6 +77,10 @@ Phase 2 (validation harness) and Phase 3 (coverage) not started.
   Verified as reachable and correctly described: BERUFENET, the Jobbörse (radius steps
   10/15/25/50/100/200 km, which rung 1 of the ladder now maps onto), mein NOW and its
   Fördernavigator, HWK Lehrstellenbörsen, Lehrstellenradar, Lehrstellenatlas, Innungssuche.
+- **2026-09-07** — Commute checks are now Deutschland-Ticket checks: the regional
+  connection is the real journey time, because an ICE ticket bought every working day is not
+  something a wage pays for. Asked in the constraints interview, enforced in opening
+  discovery.
 - **2026-09-07** — Warehouse persona dry-run (Reutlingen, track c) against live sources.
   Three defects found and fixed: querying the current occupation returns routes *into* it
   rather than out; official-looking commercial domains were dominating occupation results;

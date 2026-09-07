@@ -12,6 +12,9 @@ relax them out loud, with consent, via
 - Where do you live (town or postcode)?
 - How far are you willing to travel each day — in km, in minutes, or "as far as the bus goes"?
 - By what transport: own car, licence but no car, public transport, bike, on foot?
+- If by rail: do you have a Deutschland-Ticket, and is long-distance rail (ICE/IC) something
+  you could actually pay for daily? Usually not — in that case the regional connection is the
+  real commute time.
 - Would you move? If not, is that about family, friends, a flat, a partner's job, or care duties?
 - Remote, hybrid, or onsite — and is remote actually possible at home (space, connection, quiet)?
 
