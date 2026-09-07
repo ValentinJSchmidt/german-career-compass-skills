@@ -61,8 +61,16 @@ decorating a thin result with encouragement.
 - Never say "AI will replace this job" or "this job is safe". Both are unfounded and both
   are useless for deciding.
 - Where exposure is real, pair it with what to build. Exposure without a route is just fear.
-- Physical, on-site, licensed, and trust-based work has different exposure than screen work.
-  Say so plainly — for many people it is the most useful single fact in the conversation.
+- Exposure is **not** "office bad, trades safe". Screen work, physical work, and licensed
+  work each have a different exposure profile, and none of them is settled. Nobody credibly
+  knows what software engineering looks like in five years either. Say what is visible
+  today, per task, and say that the rest is open.
+- Stay inside the **plannable band**. Scenarios where AI takes over most work are excluded
+  from advice — not because they are impossible, but because no career plan survives them,
+  so they cannot inform a decision. Say that plainly if someone raises it, rather than
+  either dismissing the worry or planning around a scenario that makes planning meaningless.
+- The useful question is never "is this job safe?" It is "which parts of this work are
+  moving, what does that mean for the next two to five years, and what should I build?"
 
 ## Constraints
 
